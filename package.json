@@ -1,0 +1,14 @@
+{
+  "name": "node-reptile",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "node-xlsx": "^0.15.0",
+    "querystring": "^0.2.0",
+    "request": "^2.88.2",
+    "superagent": "^5.2.2",
+    "xlsx": "^0.16.2"
+  }
+}
