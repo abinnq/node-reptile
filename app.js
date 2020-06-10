@@ -31,7 +31,7 @@ function getFirst() {
 
 function getListByPage(pageIndex) {
   const countInfo = `(${(pageIndex - 1)*pageSize} - ${pageIndex*pageSize})`;
-  console.log(`列表获取中${countInfo}...`)
+  // console.log(`列表获取中${countInfo}...`)
   const url = 'http://wap.cnki.net/touch/web/Article/Search';
   const form = {
     keyword: KEYWORD,
